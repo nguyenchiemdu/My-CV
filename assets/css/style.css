@@ -371,6 +371,7 @@ html, body {
 
 .section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
     margin-bottom: 0;
+    box-shadow: 5px 10px grey;
 }
 
 .portfolio-item:before {
