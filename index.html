@@ -1,244 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Nguyễn Chiếm Dự-Front End Developer</title>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-    <!-- Favicon
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
-
-    <!-- Stylesheets
-    ================================================== -->
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.svg">
+    <title>Nguyễn Chiếm Dự</title>  
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
-        <nav id="primary-navigation" class="site-navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-
-                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                    <a href="#hero" class="site-logo"></a>
-
-                </div><!-- /.navbar-header -->
-
-                <div class="main-menu" id="portfolio-perfect-collapse">
-
-                    <ul class="nav navbar-nav navbar-right">
-
-                        <li class="page-scroll"><a href="#hero">Home</a></li>
-                        <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#activities">Activities</a></li>
-                        <li class="page-scroll"><a href="#service">Skill</a></li>
-                        <li class="page-scroll"><a href="#education">Education</a></li>
-                        
-                    </ul><!-- /.navbar-nav -->
-
-                </div><!-- /.navbar-collapse -->
-
-            </div>
-        </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
-
-    <div id="hero" class="hero">
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
+            <a class="logo" href="#">ChiemDu</a>         
+            <ul class="nav">
+                <!-- <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li> -->
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am <br/> Chiem Du</span>
+            </h1>
+            <p class="header-subtitle">SOFTWARE DEVELOPER</p>            
+
+            <!-- <button class="btn btn-primary">Visit My Works</button> -->
+            <div class="social-links text-left m-auto ml-sm-auto">
+                <button class="btn btn-primary">Visit My Works</button>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100008116321919" class="link btn btn-primary "><i class="ti-facebook"></i></a>
+                <a target="_blank" href="https://github.com/nguyenchiemdu" class="link btn btn-primary "><i class="ti-github"></i></a>
+                <a target="_blank" href="mailto: nguyenchiemdu@gmail.com" class="link btn btn-primary "><i class="ti-email"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@dunguyenchiem" class="link btn btn-primary "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                  </svg></a>
+            </div>
+        </div>              
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hello everyone, my name is Nguyen Chiem Du - Software Developer. 
+                        <br>
+                        I have always loved and been interested in cool things about technology. Programming and software development has been my dream since I was a middle school student. So, I took the entrance exam to Nguyen Binh Khiem specialized school with the Informatics class with the same dream of learning more about programming. programs and algorithms. In 2019, I was able to study in Russia with a full scholarship majoring in Information Systems and Technology. However, because of the Covid pandemic, in addition, that was not the path I really wanted to go, so I decided to drop out of university and return to Vietnam to continue my studies at FPT University - a new direction that I think is more suitable for me. After a few years of wandering in learning and making software, although not much, I also accumulated some experience for myself. Not only that, but I also want to share what I've collected with everyone around, and I believe it will be useful for those of you just starting out on this path. Now, I want to share what I know with everyone, so let's follow me for more cool things!              
+                    </p>
+                    <a class="btn-rounded btn btn-outline-primary mt-4" href="/assets/cv/Nguyen-Chiem-Du-CV.pdf" target="_blank">Download CV</a>
+                </div>              
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="major">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">My Major</h6>
+            <!-- row -->
             <div class="row">
-
-                <div class="col-md-6">
-                    <h1>Nguyen Chiem Du</h1>
-                    <div class="page-scroll">
-                        <p class="job-title">Front End Developer</p>
-                        <div class="clearfix visible-xxs"></div>
-                        <a href="#about" class="btn btn-fill">Explore more</a>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/frontend.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Web FrontEnd</h6>
+                            <p class="subtitle">Front-end programming uses HTML, CSS, or Javascript programming languages to design application interfaces.</p>
+                        </div>
                     </div>
                 </div>
-            
-                <div class="col-md-6 text-right">
-                    <img src="assets/img/chiemdu.png" alt="alex-vidal">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/nodejs.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">NodeJs</h6>
+                            <p class="subtitle">Node.js® is an open-source, cross-platform JavaScript runtime environment</p>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/flutter.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Flutter</h6>
+                            <p class="subtitle">Flutter is a framework by Google for natively compiled, multi-platform applications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/ai.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">AI</h6>
+                            <p class="subtitle">Artificial intelligence is the simulation of human intelligence processes by machines</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
         </div>
-    </div><!-- /.hero -->
+    </section><!-- end of service section -->
 
-    <main id="main" class="site-main">
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Experience</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4 my-2">
+                    <a href="/jobscape.html" class="portfolio-card">
+                        <img src="assets/imgs/ggsc.png" class="portfolio-card-img border rounded-lg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Jobscape</h5>
+                                <p class="font-weight-normal">Mobile Application in Google Solution Challenge</p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+                <div class="col-md-4 my-2">
+                    <a href="/active-ageing.html" class="portfolio-card">
+                        <img class="portfolio-card-img border rounded-lg" src="assets/imgs/aavn.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>ActiveAgeing Vietnam</h5>
+                                <p class="font-weight-normal">Web landing page </p>
+                            </span>                         
+                        </span>                         
+                    </a>
+                </div>
+                <div class="col-md-4 my-2">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img border rounded-lg" src="assets/imgs/supremetech.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>AI Related Internship 2020</h5>
+                                <p class="font-weight-normal"></p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
 
-        <section id="about" class="site-section section-about text-center"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3"> 
-                        <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>My name is Nguyen Chiem Du, front end developer.  </br>I am a freshman in information technology at NUST MISiS University, Russia </br>Learning new languages and technologies is something I'm passionate about (I have been learning HTML CSS myself for 2 months). I am considered a team player because I enjoy helping others and tend to work well in teams </br>I love helping others and doing good teamwork.</p>
-                        <a href="./assets/cv/Nguyen-Chiem-Du-CV.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+    <!-- skills section -->
+    <section class="section" id="skills">
+        <div class="container text-center">
+            <!-- <p class="section-subtitle">How Much I Charge ?</p> -->
+            <h6 class="section-title mb-6">Skills</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/programming.webp" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Programming Languages</h6>
+                        <div class="pricing-card-list">
+                            <table class="mx-auto">
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/javascript.png" />
+                                    </td>
+                                    <td>
+                                        Javascript
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/python.png" />
+                                    </td>
+                                    <td>
+                                        Python
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/dart.webp" />
+                                    </td>
+                                    <td>
+                                        Dart
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/java.png" />
+                                    </td>
+                                    <td>
+                                        Java
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/pascal.png" />
+                                    </td>
+                                    <td>
+                                        Pascal
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
-        </section><!-- /.secton-about -->
-        <section class="site-section section-skills">
-          <div class="container">
-              <div class="text-center">
-                  <h3>Contact Infor</h3>
-                  <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-              </div>
-              
-                  <div class="col-sm-8 col-xs-24 div-center" style="background-color:#212121;margin: 0 auto; padding-top: 5px;">
-                      <div class="row">
-                          <div style="text-align: center;padding-top: 20px">
-                              <span>
-                              <a class="icon facebook-bg" href="https://www.facebook.com/profile.php?id=100008116321919"><i class="icon-facebook"></i></a>
-                              <a class="icon twitter-bg" href="https://github.com/nguyenchiemdu"><i class="fab fa-github"></i></a>
-                              <a class="icon gplus-bg" ><i class="icon-linkedin"></i></a>
-                              <a class="icon linkedin-bg"><i class="icon-gplus"></i></a>
-                              </span>
-                          </div>
-                          <div style="width: 41%;min-width: 210px; ;margin: 0px auto; padding-top: 20px;">
-                              <ul class="address-line">
-                                  <li><i class="fas fa-map-marker-alt">  </i> Quang Nam, Viet Nam</li>
-                                  <li><i class="fas fa-phone-square">  </i> 0865022397</li>
-                                  <li><i class="far fa-envelope"></i><a style="color: white;" href="mailto:nnguenchiemdu@gmail.com"> nguyenchiemdu@gmail.com</a></li>
-                                  <li><i class="fas fa-globe-asia"></i><a style="color: white;" href="https://nguyenchiemdu.github.io/My-CV/index.html"> https://nguyenchiemdu.github.io</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                      
-                  </div>
-              
-              
-          </div>
-      </section><!-- /.secton-skills -->
-
-        <section id="activities" class="site-section section-portfolio">
-          <div class="container">
-              <div class="text-center">
-                  <h3>My activities</h3>
-                  <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-              </div>
-              <div class="row">
-                  <div class="col-md-4 col-xs-6">
-                      <div class="portfolio-item">
-                          <img src="assets/img/google_solution_challenge.png" class="img-res" alt="">
-                          <div class="portfolio-item-info">
-                              <h4>Jobscape - Google Sollution Challenge</h4>
-                              <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                              <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                          </div><!-- /.portfolio-item-info -->
-                      </div><!-- /.portfolio-item -->
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="portfolio-item">
-                          <img src="assets/img/social_business.jpeg" class="img-res" alt="">
-                          <div class="portfolio-item-info">
-                              <h4>Active Ageing - SBC</h4>
-                              <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                              <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                          </div><!-- /.portfolio-item-info -->
-                      </div><!-- /.portfolio-item -->
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="portfolio-item">
-                          <img src="assets/img/supremetech.jpeg" class="img-res" alt="">
-                          <div class="portfolio-item-info">
-                              <h4>AI Related Internship 2020</h4>
-                              <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                              <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                          </div><!-- /.portfolio-item-info -->
-                      </div><!-- /.portfolio-item -->
-                  </div>
-              </div>
-          </div>
-      </section>
-        <section id="service" class="site-section section-services overlay text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Skills</h3>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/frameworks.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Front End Developer">
-                            <h4>PROGRAMMING LANGUAGES</h4>
-                            <ul style="list-style: none">
-                                <li>JavaScript</li>
-                                <li>Pascal</li>
-                                <li>Python</li>
-                                <li>Dart</li>
-                            </ul>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/back-end.svg" alt="Back End Developer">
-                            <h4>FRAMEWORKS & PLATFORMS</h4>
-                            <ul style="list-style: none">
-                                <li>ReactJS</li>
-                                <li>jQuery</li>
-                                <li>Flutter</li>
-                                <li>Twitter Bootstrap</li>
-                            </ul>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>VERSION CONTROL</h4>
-                            <ul style="list-style: none">
-                                <li>Git (Github)</li>
-                            </ul>
-                        </div><!-- /.service -->
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Frameworks & Platforms</h6>
+                        <div class="pricing-card-list">
+                            <table class="mx-auto">
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/react.png" />
+                                    </td>
+                                    <td>
+                                        React Js
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/node.jpeg" />
+                                    </td>
+                                    <td>
+                                        Node Js
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/jquery.png" />
+                                    </td>
+                                    <td>
+                                        jQuery
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/flutter.png" />
+                                    </td>
+                                    <td>
+                                        Flutter
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/bootstrap.png" />
+                                    </td>
+                                    <td>
+                                        Bootstrap
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section><!-- /.secton-services -->
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/versioncontrol.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Version Control</h6>
+                        <div class="pricing-card-list">
+                            <table class="mx-auto">
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/git.png" />
+                                    </td>
+                                    <td>
+                                        Git
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/github.png" />
+                                    </td>
+                                    <td>
+                                        Github
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon float-left m-2" style="width:32px" src="/assets/imgs/gitlab.png" />
+                                    </td>
+                                    <td>
+                                        Gitlab
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
-        <section id="education" class="site-section section-portfolio">
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <section id="education"  class="site-section section section-portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h3>Education</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    <h6 class="section-title mb-5">Education</h6>
                 </div>
-                
+                <div style="text-align: center;">
+                    <h4>2021-Now</h4>
+                    <h4 style="font-size: 24px;font-weight: 700;text-transform: uppercase;">FPT University</h4>
+                    <h5>Danang, Vietnam</h5>
+                    <p>Major: Bachelor in Artificial Intelligence</p>
+                </div>
                     <div style="text-align: center;">
-                        <h4>2019-Now</h4>
+                        <h4>2019-2021</h4>
                         <h4 style="font-size: 24px;font-weight: 700;text-transform: uppercase;">National University of Science and Technology, MISIS (NUSTMISIS)</h4>
                         <h5>Moscow, Russia</h5>
                         <p>Major: Bachelor in Information Systems and technologies</p>
@@ -248,194 +368,102 @@
                         <h4 style="font-size: 24px;font-weight: 700;text-transform: uppercase;">Nguyen Binh Khiem high school for gifted</h4>
                         <h5>Quang Nam, Viet Nam</h5>
                         <p>Major: Informatics</p>
-                    </div>
                 </div>
-            </div>
-        </section><!-- /.secton-portfolio -->
-
-
-
-    </main><!-- /#main -->
-
-    <footer id="colophon" class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <a class="icon facebook-bg" href="https://www.facebook.com/profile.php?id=100008116321919"><i class="icon-facebook"></i></a>
-                    <a class="icon twitter-bg" href="https://github.com/nguyenchiemdu"><i class="fab fa-github"></i></a>
-                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
-                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
                 </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright"></p></div>
-                <div class="col-sm-4 col-xs-3">
-                    <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer><!-- /#footer -->
-
-    <!-- Modals -->
-    <div id="portfolioItem1" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/google_solution_challenge.png" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Jobscape - 2021 Google Sollution Challenge</h4>
-            <p>- Organized by Google, the 2021 Solution Challenge mission is to solve for
-              one or more of the United Nations 17 Sustainable Development Goals using
-              Google technology.</p>
-            <p>
-              - Developed as part of the Google Solution Challenge 2021, Jobscape is a
-              trusted source for learning journeys, based on valued recommendations and
-              insights from current professionals for the Vietnamese young learners who
-              ACTIVITIES
-              need a roadmap to their desired job.
-            </p>
-            <p>
-              -Link Github : <a href="https://github.com/nguyenchiemdu/Jobscape">https://github.com/nguyenchiemdu/Jobscape</a>
-            </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/T1e8-JKh9Ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p> -->
-          </div>
-          <div class="modal-footer">
-            <a href="https://github.com/nguyenchiemdu/Jobscape" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div id="portfolioItem2" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/social_business.jpeg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Active Ageing Vietnam - Social Business Creation</h4>
-            <p>- Organized by HEC Montréal, in Canada, Social Business Creation (SBC) is
-              a global competition and an innovative training platform through which
-              participants learn about how to use market mechanisms to solve social
-              challenges.
-              </p>
-            <p>
-              -Developed as part of the Social Business Creation, Active Ageing Vietnam assists planning for retirement to ensure financial
-              security and health care access.
-            </p>
-            <p>
-              -With the Active Ageing Vietnam project, we won the international award “Impactful Social Business Idea”.
-            </p>
-            <p>
-              -Visit our landing page for more information : <a href="http://activeageingvietnam.com/">activeageingvietnam.com</a>
-            </p>
-            <img style="width: 100%" src="assets/img/sbc award.png">
             
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p> -->
-          </div>
-          <div class="modal-footer">
-            <a href="http://www.ftu.edu.vn/sinh-vi%C3%AAn/113-kh%E1%BB%9Fi-nghi%E1%BB%87p,-%C4%91%E1%BB%95i-m%E1%BB%9Bi,-s%C3%A1ng-t%E1%BA%A1o/3484-tr%C6%B0%E1%BB%9Dng-%C4%91hnt-c%C3%B3-5-d%E1%BB%B1-%C3%A1n-thu%E1%BB%99c-top-20-%C3%BD-t%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-cu%E1%BB%99c-thi-to%C3%A0n-c%E1%BA%A7u-v%E1%BB%81-s%C3%A1ng-t%E1%BA%A1o-kinh-doanh-x%C3%A3-h%E1%BB%99i-sbc" class="btn btn-fill">Visit Page</a>
-          </div>
-          
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </section>
 
-    <div id="portfolioItem3" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/supremetech.jpeg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">AI Related Software Engineer
-              Internship Program 2020 - SuperemeTech Co.LTD</h4>
-              <p>
-                - This is an internship program to train AI related software engineers.
-              </p>
-              <p>
-                -Participating in this course, I learned how to be a professional software
-                engineer and gathered other knowledge and skills, ready to join a real
-                software development project.
-              </p>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p> -->
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <div class="col-sm-8 col-xs-24 div-center" style="  margin: 0 auto; padding-top: 5px;">
+                <div class="">
+                    <div class="text-left">
+                        <table class="mx-auto">
+                            <tr>
+                                <td>
+                                    <a href="#" style="position: relative;
+                                border-radius: 20px; margin-right:20px;
+                                padding: 8px 15px;" class="link btn btn-primary "><i class="ti-location-arrow"></i></a>
+                                </td>
+                                <td>
+                                    Quang Nam, Viet Nam
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a target="_blank" href="https://www.facebook.com/nguyenchiemdu" style="position: relative;
+                                border-radius: 20px; margin-right:20px;
+                                padding: 8px 15px;" class="link btn btn-primary "><i class="ti-facebook"></i></a>
+                                </td>
+                                <td>
+                                    <a target="_blank" href="https://facebook.com/nguyenchiemdu">facebook.com/nguyenchiemdu</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#" style="position: relative;
+                                border-radius: 20px; margin-right:20px;
+                                padding: 8px 15px;" class="link btn btn-primary "><i class="ti-mobile"></i></a>
+                                </td>
+                                <td>
+                                    0865022397
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a target="_blank" href="mailto:nnguenchiemdu@gmail.com" style="position: relative;
+                                border-radius: 20px; margin-right:20px;
+                                padding: 8px 15px;" class="link btn btn-primary "><i class="ti-email"></i></a>
+                                </td>
+                                <td>
+                                    nguyenchiemdu@gmail.com
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a  target="_blank" href="https://github.com/nguyenchiemdu" style="position: relative;
+                                border-radius: 20px; margin-right:20px;
+                                padding: 8px 15px;" class="link btn btn-primary "><i class="ti-github"></i></a>
+                                </td>
+                                <td>
+                                    <a target="_blank" href="https://github.com/nguyenchiemdu">github.com/nguyenchiemdu</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
 
-    <div id="portfolioItem4" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy;</p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100008116321919"><i class="ti-facebook"></i></a>
+                <a target="_blank" href="https://github.com/nguyenchiemdu" ><i class="ti-github"></i></a>
+                <a target="_blank" href="mailto: nguyenchiemdu@gmail.com" ><i class="ti-email"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@dunguyenchiem" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                  </svg></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-    <div id="portfolioItem5" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <div id="portfolioItem6" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/skrollr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  
 </body>
 </html>
